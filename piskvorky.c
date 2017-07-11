@@ -58,9 +58,9 @@ void graph_close(void)
 
 void load_textures(void)
 {
-    ico = SDL_LoadBMP("icon.bmp");
-    ex = IMG_LoadTexture(okno.render, "ex.png");
-    ou = IMG_LoadTexture(okno.render, "ou.png");
+    ico = SDL_LoadBMP("resources/icon.bmp");
+    ex = IMG_LoadTexture(okno.render, "resources/ex.png");
+    ou = IMG_LoadTexture(okno.render, "resources/ou.png");
     SDL_SetWindowIcon(okno.win, ico);
 }
 
