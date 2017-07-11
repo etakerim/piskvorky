@@ -19,7 +19,7 @@ sudo apt install libsdl2-2.0-0 libsdl2-image-2.0-0
 
 ### Build and Run
 ```bash
-gcc piskvorky.c -lSDL2 -lSDL2-image -o piskvorky
+gcc piskvorky.c -lSDL2 -lSDL2_image -o piskvorky
 ```
 
 ### Licence
